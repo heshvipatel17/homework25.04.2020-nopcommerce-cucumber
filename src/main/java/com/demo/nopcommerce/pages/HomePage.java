@@ -20,6 +20,10 @@ public class HomePage extends Utility {
     @FindBy(linkText = "Computers")
     WebElement _computerLink;
 
+    @FindBy(xpath = "//ul[@class='top-menu notmobile']//li[5]/a")
+    WebElement _booksLink;
+
+
     // METHOD FOR CLICK ON LOGIN LINK
     public void clickOnLoginLink() {
         Reporter.addStepLog("Clicking on login link : " + _loginLink.toString());
@@ -39,5 +43,10 @@ public class HomePage extends Utility {
         clickOnElement(_computerLink);
         log.info("Clicking on Computer link : " + _computerLink.toString());
     }
-
+    public void clickOnBooksLink() {
+        Reporter.addStepLog("Click on books link" + _booksLink.toString());
+        waitUntilElementToBeClickable(_booksLink, 20);
+        clickOnElement(_booksLink);
+        log.info("Click on books link" + _booksLink.toString());
+    }
 }

@@ -12,7 +12,7 @@ public class DesktopPage extends Utility {
     private static final Logger log = LogManager.getLogger(DesktopPage.class.getName());
 
 
-    @FindBy(linkText = "Build your own computer")
+    @FindBy(xpath = "//a[contains(text(),'Build your own computer')]")
     WebElement _builtYrOwnComLink;
 
     @FindBy(id = "product_attribute_3_7")
@@ -26,6 +26,7 @@ public class DesktopPage extends Utility {
 
     // METHOD FOR CLICK ON BUILD YOUR OWN COMPUTER LINK
     public void clickOnBuiltYourOwnComputerLink() {
+        waitUntilElementToBeClickable(_builtYrOwnComLink, 20);
         Reporter.addStepLog("Clicking on build your computer link" + _builtYrOwnComLink.toString());
         clickOnElement(_builtYrOwnComLink);
         log.info("Clicking on build your computer link" + _builtYrOwnComLink.toString());

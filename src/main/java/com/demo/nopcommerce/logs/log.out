@@ -397,3 +397,39 @@
 2020-04-29 16:04:67 INFO  RegisterPage :145 -  Enter confirm passwordmno123 to confirm password field [[ChromeDriver: chrome on WINDOWS (1265de17677c4893eb590e2b9638fff5)] -> xpath: //input[@name='ConfirmPassword']]
 2020-04-29 16:04:141 INFO  RegisterPage :152 -  Click on register button [[ChromeDriver: chrome on WINDOWS (1265de17677c4893eb590e2b9638fff5)] -> xpath: //input[@name='register-button']]
 2020-04-29 16:04:164 INFO  RegisterPage :163 - Verify register Text:  displayed on register page [[ChromeDriver: chrome on WINDOWS (1265de17677c4893eb590e2b9638fff5)] -> xpath: //span[@id='FirstName-error']]
+2020-05-02 08:05:529 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:616 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (b6f3fb01a410f21e6faa50d771e324ce)] -> link text: Computers]
+2020-05-02 08:05:664 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (b6f3fb01a410f21e6faa50d771e324ce)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:344 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:42 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (ee19b226030e474f3e06cbd87a6c4bc2)] -> link text: Computers]
+2020-05-02 08:05:82 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (ee19b226030e474f3e06cbd87a6c4bc2)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:270 INFO  ComputerPage :33 - Clicking on Desktop Button[[ChromeDriver: chrome on WINDOWS (ee19b226030e474f3e06cbd87a6c4bc2)] -> xpath: //li[@class='inactive']//a[@href='/desktops']]
+2020-05-02 08:05:311 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:907 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (938f6a87c1fd6f92b719d89fdbf92e9e)] -> link text: Computers]
+2020-05-02 08:05:954 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (938f6a87c1fd6f92b719d89fdbf92e9e)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:642 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:615 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (d6372f3ba699081ac4eb4dbba334dace)] -> link text: Computers]
+2020-05-02 08:05:641 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (d6372f3ba699081ac4eb4dbba334dace)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:746 INFO  ComputerPage :33 - Clicking on Desktop Button[[ChromeDriver: chrome on WINDOWS (d6372f3ba699081ac4eb4dbba334dace)] -> xpath: //li[@class='inactive']//a[@href='/desktops']]
+2020-05-02 08:05:393 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:875 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (edf39fb383a1d58f029887ff99caf8f9)] -> link text: Computers]
+2020-05-02 08:05:898 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (edf39fb383a1d58f029887ff99caf8f9)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:526 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:861 INFO  HomePage :40 - Clicking on Computer link : [[ChromeDriver: chrome on WINDOWS (117ecfa0936a592b050446e1da7fdd0e)] -> link text: Computers]
+2020-05-02 08:05:882 INFO  ComputerPage :24 -  verify Computer text [[ChromeDriver: chrome on WINDOWS (117ecfa0936a592b050446e1da7fdd0e)] -> xpath: //h1[contains(text(),'Computers')]]
+2020-05-02 08:05:156 INFO  ComputerPage :33 - Clicking on Desktop ButtonProxy element for: DefaultElementLocator 'By.xpath: //li[@class='inactive']//a[@href='/desktops']'
+2020-05-02 08:05:107 INFO  DesktopPage :32 - Clicking on build your computer linkProxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Build your own computer')]'
+2020-05-02 08:05:186 INFO  DesktopPage :39 - Clicking on 400GB hard disk drive[[ChromeDriver: chrome on WINDOWS (117ecfa0936a592b050446e1da7fdd0e)] -> id: product_attribute_3_7]
+2020-05-02 08:05:247 INFO  DesktopPage :46 - Clicking on add to card button[[ChromeDriver: chrome on WINDOWS (117ecfa0936a592b050446e1da7fdd0e)] -> id: add-to-cart-button-1]
+2020-05-02 08:05:594 INFO  DesktopPage :52 - Verify product add successfuly text[[ChromeDriver: chrome on WINDOWS (117ecfa0936a592b050446e1da7fdd0e)] -> xpath: //p[@class='content']]
+2020-05-02 08:05:06 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:868 INFO  HomePage :50 - Click on books link[[ChromeDriver: chrome on WINDOWS (c0a7b1fd78bf9c25394d6ba6a2f436c9)] -> xpath: //ul[@class='top-menu notmobile']//li[5]/a]
+2020-05-02 08:05:985 INFO  BookPage :40 - Verify text: Books is displayed [[ChromeDriver: chrome on WINDOWS (c0a7b1fd78bf9c25394d6ba6a2f436c9)] -> xpath: //h1[contains(text(),'Books')]]
+2020-05-02 08:05:579 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:642 INFO  HomePage :50 - Click on books link[[ChromeDriver: chrome on WINDOWS (8e1fac42610265f035d9f71dc2025090)] -> xpath: //ul[@class='top-menu notmobile']//li[5]/a]
+2020-05-02 08:05:967 INFO  BookPage :47 - Select to sort Books by alphabetical order AtoZ from drop down [[ChromeDriver: chrome on WINDOWS (8e1fac42610265f035d9f71dc2025090)] -> css selector: select#products-orderby]
+2020-05-02 08:05:76 INFO  BookPage :81 - Verify that books: [Fahrenheit 451 by Ray Bradbury, First Prize Pies, Pride and Prejudice] are sorted AtoZ [[ChromeDriver: chrome on WINDOWS (8e1fac42610265f035d9f71dc2025090)] -> xpath: //div[@class='product-grid']//h2/a]
+2020-05-02 08:05:679 INFO  BrowserSelector :20 - Launching Chrome Browser
+2020-05-02 08:05:709 INFO  HomePage :50 - Click on books link[[ChromeDriver: chrome on WINDOWS (9e37330936118cad1fb4a42104c97519)] -> xpath: //ul[@class='top-menu notmobile']//li[5]/a]
+2020-05-02 08:05:65 INFO  BookPage :54 - Select to sort prices of Books Low to High from drop down [[ChromeDriver: chrome on WINDOWS (9e37330936118cad1fb4a42104c97519)] -> css selector: select#products-orderby]
+2020-05-02 08:05:156 INFO  BookPage :108 - Verify that books: [$24.00, $27.00, $51.00] are sorted Low to High [[ChromeDriver: chrome on WINDOWS (9e37330936118cad1fb4a42104c97519)] -> xpath: //span[@class='price actual-price']]
